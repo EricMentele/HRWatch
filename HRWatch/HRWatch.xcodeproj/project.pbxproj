@@ -10,6 +10,7 @@
 		8CF291002B85B0CC00E5518F /* HRWatch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CF290F72B85B0CC00E5518F /* HRWatch.framework */; };
 		8CF291052B85B0CC00E5518F /* HRWatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF291042B85B0CC00E5518F /* HRWatchTests.swift */; };
 		8CF291062B85B0CC00E5518F /* HRWatch.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CF290FA2B85B0CC00E5518F /* HRWatch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CF291152B8CF3B300E5518F /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 8CF291142B8CF3B300E5518F /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +28,7 @@
 		8CF290FA2B85B0CC00E5518F /* HRWatch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HRWatch.h; sourceTree = "<group>"; };
 		8CF290FF2B85B0CC00E5518F /* HRWatchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HRWatchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CF291042B85B0CC00E5518F /* HRWatchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HRWatchTests.swift; sourceTree = "<group>"; };
+		8CF291142B8CF3B300E5518F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		8CF290ED2B85B0CC00E5518F = {
 			isa = PBXGroup;
 			children = (
+				8CF291142B8CF3B300E5518F /* README.md */,
 				8CF290F92B85B0CC00E5518F /* HRWatch */,
 				8CF291032B85B0CC00E5518F /* HRWatchTests */,
 				8CF290F82B85B0CC00E5518F /* Products */,
@@ -174,6 +177,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CF291152B8CF3B300E5518F /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
